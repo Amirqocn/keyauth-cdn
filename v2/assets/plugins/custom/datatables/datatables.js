@@ -1,6 +1,6 @@
 $("#kt_datatable_licenses").DataTable({
 	"order": [[1, 'desc']],
-	'processing': false,
+	'processing': true,
 	'serverSide': true,
 	'serverMethod': 'post',
 	'ajax': {
