@@ -1,15 +1,12 @@
 $("#kt_datatable_licenses").DataTable({
 	"order": [[1, 'desc']],
-	'processing': true,
+	'processing': false,
 	'serverSide': true,
 	'serverMethod': 'post',
 	'ajax': {
 		'url': 'license-fetch.php'
 	},
 	'columns': [
-		{
-			data: 'checkbox'
-		},
 		{
 			data: 'key'
 		},
