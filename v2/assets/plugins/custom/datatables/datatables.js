@@ -7,9 +7,7 @@ $("#kt_datatable_licenses").DataTable({
 		'url': 'license-fetch.php'
 	},
 	'columns': [
-		{
-			data: 'checkbox'
-		},
+
 		{
 			data: 'key'
 		},
