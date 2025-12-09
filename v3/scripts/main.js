@@ -1,12 +1,12 @@
 function updatePricing() {
     if ($("#pricing_anually_month").is(':checked')) {
         $("#tester_mode").text("0 / Year");
-        $("#developer_mode").text("14.99 / Year");
-        $("#seller_mode").text("24.99 / Year");
+        $("#developer_mode").text("34.99 / Year");
+        $("#seller_mode").text("59.99 / Year");
     } else {
         $("#tester_mode").text("0 / Month");
-        $("#developer_mode").text("2.99 / Month");
-        $("#seller_mode").text("4.99 / Month");
+        $("#developer_mode").text("17.50 / Month");
+        $("#seller_mode").text("29.99 / Month");
     }
 }
 
@@ -149,3 +149,4 @@ elementsToAnimateInDown.forEach(element => {
     element.classList.add('hidden_l');
     observerInDown.observe(element);
 });
+
